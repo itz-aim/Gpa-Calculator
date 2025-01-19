@@ -8,12 +8,14 @@
       font-family: fx-CW Series, sans-serif;
       margin: 0;
       padding: 0;
+      background-image: url('your-custom-picture.jpg'); /*image file name or URL */ 
+      background-size: cover; background-position: center;
       background-color: #1C4E80;
     }
     .container {
       max-width: 600px;
       margin: 20px auto;
-      background: #fff;
+      background: rgba(255, 255, 255, 0.8); /* White background with some transparency */
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
