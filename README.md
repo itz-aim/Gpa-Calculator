@@ -70,6 +70,16 @@
     .results p, .course-list p {
       margin: 5px 0;
     }
+   /* Media Queries for responsive design */ 
+    @media (max-width: 600px) { 
+      .container { 
+        padding: 10px; width: 90%; } 
+      .button-group { 
+        flex-direction: column; 
+      } 
+      button { 
+        margin: 5px 0; font-size: 14px; 
+       }
   </style>
 </head>
 <body>
